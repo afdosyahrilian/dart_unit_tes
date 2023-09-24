@@ -1,3 +1,6 @@
+@Skip('Testing di tunda')
+
+
 import 'package:test/test.dart';
 
 int sum(int a, int b) => a + b;
@@ -12,7 +15,3 @@ void main(){
     });
   });
 }
-
-
-/// MENYINGKAT BEBERAPA TESTING(1 FUNCTION) MENJADI 1 TESTING SEKALIGUS
-/// GROUP-TEST-EXPECT

@@ -12,3 +12,5 @@ void main(){
     }, testOn: "mac-os");
   });
 }
+
+/// MENENTUKAN PLATFORM SALAH SATU TESTING, MISAL HANYA BISA TESTING DI MAC OS 12:

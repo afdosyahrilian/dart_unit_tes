@@ -6,13 +6,9 @@ void main(){
   group('Test Sum', (){
     test('Positive', () {
       expect(sum(1, 1), equals(2));
-    });
+    }, skip: 'Positive test ditunda');
     test('Negative', (){
       expect(sum(10, -5), equals(5));
     });
   });
 }
-
-
-/// MENYINGKAT BEBERAPA TESTING(1 FUNCTION) MENJADI 1 TESTING SEKALIGUS
-/// GROUP-TEST-EXPECT

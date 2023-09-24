@@ -28,3 +28,7 @@ void main() {
     });
   });
 }
+
+/// UNTUK SETTING SET UP YANG HANYA DIEKSEKUSI DI AWAL TESTING
+/// MISAL UNTUK LOG IN DATABASE
+/// setUpAll((){ ISI PROGRAM}); 6:
