@@ -15,3 +15,6 @@ void main(){
     });
   });
 }
+
+/// TESTING DI SKIP, MISAL KETIKA ADA TESTING YANG BERMASALAH
+/// @Skip('ALASAN SKIP') 1:
